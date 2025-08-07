@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MiAmor</title>
+  <style>
+    :root {
+      --primary-color: #0c1b4d;
+      --accent-color: #f9b233;
+      --text-color: #ffffff;
+      --button-hover: #d9991e;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: var(--primary-color);
+      color: var(--text-color);
+    }
+
+ .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--primary-color);
+  position: sticky; /* Keeps it at the top */
+  top: 0;
+  z-index: 1000;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.register {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: row; /* Ensure horizontal layout */
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  .logo img {
+    height: 30px;
+  }
+
+  .register {
+    font-size: 0.9rem;
+  }
+}
+
+
+    .section {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .section img {
+      max-width: 100%;
+      height: 350px;
+      border-radius: 12px;
+      margin: 1rem 0;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: var(--accent-color);
+      color: var(--primary-color);
+      padding: 0.75rem 1.5rem;
+      border-radius: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      margin-top: 1rem;
+      transition: background 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: var(--button-hover);
+    }
+
+    h2, h3 {
+      color: var(--accent-color);
+      margin-bottom: 1rem;
+    }
+
+    .faq {
+      text-align: left;
+      padding: 2rem;
+    }
+
+    .faq details {
+      background-color: transparent;
+      padding: 0.5rem 0;
+      border-radius: 0;
+      margin: 1rem 0;
+      color: var(--text-color);
+    }
+
+    .faq summary {
+      font-weight: bold;
+      font-size: 1.1rem;
+      cursor: pointer;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .social-icons img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .whatis-box {
+      background-color: #0c1b4d;
+      padding: 2rem;
+      border-radius: 20px;
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="Images/miamorlogo2.png" alt="MiAmor Logo">
+    </div>
+    <a href="miamorReg.html" class="register">Register Now</a>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="section">
+    <h2>Love Meets Opportunity.</h2>
+    <img src="Images/gme.jpeg" alt="How It Works Image">
+  </section>
+
+  <!-- What is MiAmor Section -->
+  <section class="section whatis-box">
+    <h2>What is MiAmor?</h2>
+    <p>Mi Amor is a social media platform where lovers connect, share, and grow in meaningful ways. </p>
+    <p>Beyond relationships, it’s also a space to work, collaborate, and earn directly to your bank account. </p>
+    <p>Join a global community where love and opportunity come together.</p>
+    <img src="Images/miamor homepage1.jpeg" alt="What is MiAmor Image">
+  </section>
+
+  <!-- Welcome Banner -->
+  <section class="section">
+    <h2>WELCOME TO THE FUTURE OF CONNECTION</h2>
+    <p>Build real relationships. Earn real rewards.</p>
+    <img src="Images/homepage2.jpeg" alt="Find Your Match">
+    <div>
+      <a href="miamorReg.html" class="button">Get Started</a>
+      
+    </div>
+  </section>
+
+  <!-- About Us -->
+  <section class="section">
+    <h2>About Us</h2>
+    <p>Mi Amor is a social media platform where lovers connect, share, and grow in meaningful ways. Beyond relationships, it’s also a space to work, collaborate, and earn directly to your bank account. Join a global community where love and opportunity come together.</p>
+    <img src="Images/homepage4.jpeg" alt="How It Works Image">
+</section>
+
+
+  <!-- How It Works -->
+  <section class="section">
+    <h2>How It Works</h2>
+    <p>Getting started with Mi Amor is simple create your profile, connect with others, and start building meaningful relationships. It's also a platform where you can work, collaborate, and earn money directly to your bank account, all in a secure and engaging environment.</p>
+    <img src="Images/homepage3.jpeg" alt="How It Works Image">
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section faq">
+    <h2>Frequently Asked Questions</h2>
+    <details>
+      <summary>What is MiAmor?</summary>
+      <p>Mi Amor is a social platform for lovers to connect, share, and grow in a safe, intimate space. It’s also a place where users can earn money by completing tasks online.</p>
+    </details>
+    <details>
+      <summary>How do I get started?</summary>
+      <p>Simply click "Get Started" and complete the quick registration to join.</p>
+    </details>
+    <details>
+      <summary>What are the benefits of joining?</summary>
+      <p>Mi Amor offers meaningful connection, personal growth, and opportunities to earn money through online tasks all in one community.</p>
+    </details>
+  </section>
+
+  <!-- Footer -->
+  <footer class="section">
+    <h3>Click below to get started</h3>
+    <div class="social-icons">
+      <a href="https://wa.me/message/GVOYUFR5OQXAG1"><img src="Images/whatsapp (1).png" alt="WhatsApp"></a>
+      <a href="https://t.me/MI_AMORPLATFORM"><img src="Images/telegram.png" alt="Telegram"></a>
+      <a href="https://www.tiktok.com/@streatzoclock?_t=ZM-8xTA80hrT2E&_r=1"><img src="Images/tik-tok 1.png" alt="TikTok"></a>
+      <a href="https://whatsapp.com/channel/0029VbApjuD1iUxivzrEJ23l"><img src="Images/fire.png" alt="Flame"></a>
+    </div>
+  </footer>
+</body>
+</html>
