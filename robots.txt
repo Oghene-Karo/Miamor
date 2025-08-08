@@ -1,0 +1,49 @@
+User-agent: *
+Allow: /
+
+# Allow all search engines to crawl the entire site
+Allow: /index.html
+Allow: /miamorReg.html
+Allow: /Images/
+
+# Disallow crawling of any admin or private areas (if you add them later)
+# Disallow: /admin/
+# Disallow: /private/
+# Disallow: /temp/
+
+# Allow access to important images for SEO
+Allow: /Images/miamorlogo2.png
+Allow: /Images/miamorlogoblue.png
+Allow: /Images/miamor homepage1.jpeg
+Allow: /Images/homepage2.jpeg
+Allow: /Images/homepage3.jpeg
+Allow: /Images/homepage4.jpeg
+
+# Social media icons - allow for better social sharing
+Allow: /Images/whatsapp (1).png
+Allow: /Images/telegram.png
+Allow: /Images/tik-tok.png
+Allow: /Images/tik-tok 1.png
+
+# Sitemap location
+Sitemap: https://miamor.it.com/sitemap.xml
+
+# Crawl delay (optional - helps prevent server overload)
+Crawl-delay: 1
+
+# Specific instructions for different bots
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: FacebookBot
+Allow: /
+Allow: /Images/
+
+User-agent: TwitterBot
+Allow: /
+Allow: /Images/

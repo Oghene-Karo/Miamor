@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Main Homepage -->
+  <url>
+    <loc>https://miamor.it.com/</loc>
+    <lastmod>2025-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://miamor.it.com/Images/miamor homepage1.jpeg</image:loc>
+      <image:title>MiAmor - Love Meets Opportunity</image:title>
+      <image:caption>MiAmor dating platform homepage</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://miamor.it.com/Images/miamorlogo2.png</image:loc>
+      <image:title>MiAmor Logo</image:title>
+      <image:caption>Official MiAmor brand logo</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Registration/Signup Page -->
+  <url>
+    <loc>https://miamor.it.com/miamorReg.html</loc>
+    <lastmod>2025-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Important Images for SEO -->
+  <url>
+    <loc>https://miamor.it.com/Images/miamorlogoblue.png</loc>
+    <lastmod>2025-08-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>https://miamor.it.com/Images/homepage2.jpeg</loc>
+    <lastmod>2025-08-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>https://miamor.it.com/Images/homepage3.jpeg</loc>
+    <lastmod>2025-08-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>https://miamor.it.com/Images/homepage4.jpeg</loc>
+    <lastmod>2025-08-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>
