@@ -11,9 +11,9 @@
 
     body {
       margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-      background: #0c102a;
+      padding: 1rem;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0c102a 0%, #1a1f3a 100%);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -21,14 +21,15 @@
     }
 
     .container {
-      background: #0e1433;
-      padding: 40px 30px;
-      border-radius: 12px;
+      background: linear-gradient(145deg, #0e1433 0%, #1a2040 100%);
+      padding: 2.5rem 2rem;
+      border-radius: 16px;
       width: 100%;
-      max-width: 480px;
+      max-width: 500px;
       color: #fff;
       font-weight: 600;
-      box-shadow: 0 0 25px rgba(0,0,0,0.4);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+      border: 1px solid rgba(249, 178, 51, 0.2);
     }
 
     .container img {
@@ -45,12 +46,60 @@
 
     input, select {
       width: 100%;
-      padding: 12px;
-      margin: 10px 0;
-      border-radius: 8px;
-      border: none;
+      padding: 1rem;
+      margin: 0.75rem 0;
+      border-radius: 10px;
+      border: 2px solid rgba(249, 178, 51, 0.3);
+      background: rgba(255, 255, 255, 0.05);
+      color: #fff;
       outline: none;
       font-size: 1rem;
+      transition: all 0.3s ease;
+    }
+
+    /* Fix select dropdown styling */
+    select {
+      cursor: pointer;
+      appearance: none;
+      background-image: url("data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f9b233' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polyline points='6,9 12,15 18,9'></polyline></svg>");
+      background-repeat: no-repeat;
+      background-position: right 1rem center;
+      background-size: 1rem;
+      padding-right: 3rem;
+    }
+
+    /* Style select options */
+    select option {
+      background-color: #1a2040;
+      color: #fff;
+      padding: 0.5rem;
+      border: none;
+    }
+
+    select option:checked {
+      background-color: #f9b233;
+      color: #0c102a;
+    }
+
+    select option:hover {
+      background-color: rgba(249, 178, 51, 0.2);
+    }
+
+    /* Fix disabled option styling */
+    select option:disabled {
+      color: rgba(255, 255, 255, 0.5);
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    input:focus, select:focus {
+      border-color: #f9b233;
+      background: rgba(255, 255, 255, 0.08);
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(249, 178, 51, 0.3);
+    }
+
+    input::placeholder {
+      color: rgba(255, 255, 255, 0.6);
     }
 
     .timer-box {
@@ -94,15 +143,27 @@
 
     .signup-btn {
       width: 100%;
-      background-color: #d3d800;
-      color: black;
+      background: linear-gradient(135deg, #f9b233 0%, #d9991e 100%);
+      color: #0c102a;
       font-weight: bold;
-      padding: 14px;
-      font-size: 1rem;
+      padding: 1rem;
+      font-size: 1.1rem;
       border: none;
-      border-radius: 8px;
+      border-radius: 12px;
       cursor: pointer;
-      margin-top: 10px;
+      margin-top: 1rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 5px 15px rgba(249, 178, 51, 0.4);
+    }
+
+    .signup-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 25px rgba(249, 178, 51, 0.6);
+      background: linear-gradient(135deg, #d9991e 0%, #f9b233 100%);
+    }
+
+    .signup-btn:active {
+      transform: translateY(-1px);
     }
 
     .checkbox {
@@ -128,18 +189,93 @@
 
 
     @media (max-width: 480px) {
+      body {
+        padding: 0.5rem;
+      }
+
       .container {
-        padding: 20px 15px;
-        border-radius: 8px;
+        padding: 1.5rem 1.25rem;
+        border-radius: 12px;
+        max-width: 100%;
+      }
+
+      .container img {
+        width: 70px;
+        margin-bottom: 1rem;
+      }
+
+      h2 {
+        font-size: 1.4rem;
+        margin-bottom: 1.25rem;
       }
 
       input, select {
         font-size: 0.95rem;
-        padding: 10px;
+        padding: 0.875rem;
+        margin: 0.5rem 0;
       }
 
       .signup-btn {
-        padding: 12px;
+        padding: 0.875rem;
+        font-size: 1rem;
+      }
+
+      .timer-box {
+        padding: 1rem;
+        font-size: 0.85rem;
+        margin: 1rem 0;
+      }
+
+      .timer-box b {
+        font-size: 0.8rem;
+      }
+
+      #countdown {
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+      }
+
+      .link-box {
+        padding: 0.875rem;
+        font-size: 0.9rem;
+      }
+
+      .checkbox {
+        font-size: 0.75rem;
+      }
+    }
+
+    /* Tablet responsiveness */
+    @media (min-width: 481px) and (max-width: 768px) {
+      .container {
+        max-width: 450px;
+        padding: 2rem 1.75rem;
+      }
+
+      input, select {
+        padding: 0.9375rem;
+      }
+    }
+
+    /* Large screens */
+    @media (min-width: 1200px) {
+      .container {
+        max-width: 550px;
+        padding: 3rem 2.5rem;
+      }
+
+      h2 {
+        font-size: 2rem;
+      }
+
+      input, select {
+        padding: 1.125rem;
+        font-size: 1.1rem;
+      }
+
+      .signup-btn {
+        padding: 1.125rem;
+        font-size: 1.2rem;
       }
     }
   </style>
