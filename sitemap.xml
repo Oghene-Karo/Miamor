@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   
-  <!-- Main Homepage -->
+  <!-- Homepage -->
   <url>
-    <loc>https://miamor.it.com/</loc>
-    <lastmod>2025-08-07</lastmod>
+    <loc>https://miamor.it.com</loc>
+    <lastmod>2025-08-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://miamor.it.com/Images/miamor homepage1.jpeg</image:loc>
+      <image:loc>https://miamor.it.com/Images/miamor%20homepage1.jpeg</image:loc>
       <image:title>MiAmor - Love Meets Opportunity</image:title>
       <image:caption>MiAmor dating platform homepage</image:caption>
     </image:image>
@@ -18,43 +18,34 @@
       <image:title>MiAmor Logo</image:title>
       <image:caption>Official MiAmor brand logo</image:caption>
     </image:image>
+    <image:image>
+      <image:loc>https://miamor.it.com/Images/homepage2.jpeg</image:loc>
+      <image:title>Find Your Match</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://miamor.it.com/Images/homepage3.jpeg</image:loc>
+      <image:title>How It Works</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://miamor.it.com/Images/homepage4.jpeg</image:loc>
+      <image:title>About MiAmor</image:title>
+    </image:image>
   </url>
   
-  <!-- Registration/Signup Page -->
+  <!-- Registration Page -->
   <url>
     <loc>https://miamor.it.com/miamorReg.html</loc>
-    <lastmod>2025-08-07</lastmod>
+    <lastmod>2025-08-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
-  
-  <!-- Important Images for SEO -->
-  <url>
-    <loc>https://miamor.it.com/Images/miamorlogoblue.png</loc>
-    <lastmod>2025-08-07</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  
-  <url>
-    <loc>https://miamor.it.com/Images/homepage2.jpeg</loc>
-    <lastmod>2025-08-07</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  
-  <url>
-    <loc>https://miamor.it.com/Images/homepage3.jpeg</loc>
-    <lastmod>2025-08-07</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  
-  <url>
-    <loc>https://miamor.it.com/Images/homepage4.jpeg</loc>
-    <lastmod>2025-08-07</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <image:image>
+      <image:loc>https://miamor.it.com/Images/miamorlogoblue.png</image:loc>
+      <image:title>MiAmor Registration</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://miamor.it.com/Images/miamorlogo2.png</image:loc>
+      <image:title>MiAmor Logo</image:title>
+    </image:image>
   </url>
 
 </urlset>
