@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X3Q9B7YJJB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-X3Q9B7YJJB');
+  </script>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MIAMOR - A place where you connect with people, complete surveys and earn into your bank account. Join our community and start earning today!">
+  <meta name="keywords" content="MIAMOR, surveys, earn money, connect people, bank account, online earning, survey platform, community">
+  <meta name="author" content="MIAMOR">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Favicon for desktop browsers -->
+  <link rel="icon" type="image/png" href="Images/miamorlogo2.png">
+  <link rel="shortcut icon" type="image/png" href="Images/miamorlogo2.png">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://miamor.it.com/miamor-community.html">
+  <meta property="og:title" content="MIAMOR - Connect, Complete Surveys & Earn Money">
+  <meta property="og:description" content="A place where you connect with people, complete surveys and earn into your bank account. Join our growing community today!">
+  <meta property="og:image" content="https://miamor.it.com/Images/miamorlogo2.png">
+  <meta property="og:site_name" content="MIAMOR">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://miamor.it.com/miamor-community.html">
+  <meta property="twitter:title" content="MIAMOR - Connect, Complete Surveys & Earn Money">
+  <meta property="twitter:description" content="A place where you connect with people, complete surveys and earn into your bank account.">
+  <meta property="twitter:image" content="https://miamor.it.com/Images/miamorlogo2.png">
+  
+  <title>MIAMOR - Connect, Complete Surveys & Earn Money</title>
+  
+  <style>
+    :root {
+      --primary-color: #0c1b4d;
+      --accent-color: #f9b233;
+      --text-color: #ffffff;
+      --button-hover: #d9991e;
+      --blue-button: #4a90e2;
+      --blue-button-hover: #357abd;
+      --red-button: #e74c3c;
+      --red-button-hover: #c0392b;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: var(--primary-color);
+      color: var(--text-color);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .container {
+      background: linear-gradient(135deg, #1a2b6b 0%, #0c1b4d 100%);
+      border-radius: 25px;
+      padding: 40px 30px;
+      width: 100%;
+      max-width: 500px;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(45deg, rgba(249, 178, 51, 0.1) 0%, rgba(74, 144, 226, 0.1) 100%);
+      pointer-events: none;
+    }
+
+    .profile-section {
+      margin-bottom: 30px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .profile-image {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin: 0 auto 20px;
+      background: linear-gradient(135deg, var(--accent-color), #ff6b6b);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 48px;
+      font-weight: bold;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      border: 4px solid rgba(255, 255, 255, 0.2);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    .main-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: var(--text-color);
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      letter-spacing: 2px;
+    }
+
+    .subtitle {
+      font-size: 1rem;
+      color: rgba(255, 255, 255, 0.9);
+      margin-bottom: 30px;
+      line-height: 1.5;
+      font-weight: 400;
+    }
+
+    .tagline {
+      font-size: 0.95rem;
+      color: rgba(255, 255, 255, 0.8);
+      margin-bottom: 40px;
+      line-height: 1.6;
+      font-style: italic;
+    }
+
+    .buttons-container {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .action-button {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding: 16px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 0.9rem;
+      transition: all 0.3s ease;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      position: relative;
+      padding-right: 60px;
+      text-align: center;
+      justify-content: center;
+    }
+
+    .whatsapp-button {
+      background: linear-gradient(135deg, #25d366, #128c7e);
+      color: white;
+    }
+
+    .whatsapp-button:hover {
+      background: linear-gradient(135deg, #1ea952, #0d6e63);
+      transform: translateY(-2px);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    .access-button {
+      background: linear-gradient(135deg, var(--blue-button), #3498db);
+      color: white;
+    }
+
+    .access-button:hover {
+      background: linear-gradient(135deg, var(--blue-button-hover), #2980b9);
+      transform: translateY(-2px);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    .telegram-button {
+      background: linear-gradient(135deg, var(--red-button), #e67e22);
+      color: white;
+    }
+
+    .telegram-button:hover {
+      background: linear-gradient(135deg, var(--red-button-hover), #d35400);
+      transform: translateY(-2px);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    .button-icon {
+      width: 24px;
+      height: 24px;
+      filter: brightness(0) invert(1);
+    }
+
+    .footer-note {
+      margin-top: 30px;
+      font-size: 0.8rem;
+      color: rgba(255, 255, 255, 0.6);
+      font-style: italic;
+    }
+
+    /* Mobile Responsiveness */
+    @media (max-width: 768px) {
+      .container {
+        margin: 10px;
+        padding: 30px 20px;
+        max-width: 95%;
+      }
+
+      .main-title {
+        font-size: 2rem;
+        letter-spacing: 1px;
+      }
+
+      .subtitle {
+        font-size: 0.9rem;
+      }
+
+      .tagline {
+        font-size: 0.85rem;
+      }
+
+      .action-button {
+        padding: 14px 20px;
+        font-size: 0.9rem;
+      }
+
+      .profile-image {
+        width: 80px;
+        height: 80px;
+        font-size: 36px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 10px;
+      }
+
+      .container {
+        padding: 25px 15px;
+      }
+
+      .main-title {
+        font-size: 1.8rem;
+      }
+
+      .action-button {
+        padding: 12px 16px;
+        font-size: 0.85rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="profile-section">
+      <div class="profile-image">
+        <img src="Images/miamorlogoblue.png" alt="MIAMOR" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+      </div>
+      
+      <h1 class="main-title">MIAMOR</h1>
+      <p class="subtitle">A place where you connect with people, complete surveys and earn into your bank account</p>
+      <p class="tagline">They don't teach this everywhere... But it's changing lives ⚡</p>
+    </div>
+
+    <div class="buttons-container">
+      <a href="https://chat.whatsapp.com/FO4a6LYywQdAeDM5TUlgcp?mode=ems_copy_t" class="action-button whatsapp-button" target="_blank">
+        JOIN THE GROUP TO KNOW ABOUT MIAMOR
+        <img src="Images/whatsapp (1).png" alt="WhatsApp" style="width: 30px; height: 30px; border-radius: 50%; position: absolute; right: 15px;">
+      </a>
+
+      <a href="https://chat.whatsapp.com/FO4a6LYywQdAeDM5TUlgcp?mode=ems_copy_t" class="action-button access-button" target="_blank">
+        GET ACCESS NOW
+        <img src="Images/whatsapp (1).png" alt="WhatsApp" style="width: 30px; height: 30px; border-radius: 50%; position: absolute; right: 15px;">
+      </a>
+
+      <a href="https://t.me/MI_AMORPLATFORM" class="action-button telegram-button" target="_blank">
+        JOIN MY CHANNEL
+        <img src="Images/telegram.png" alt="Telegram" style="width: 30px; height: 30px; border-radius: 50%; position: absolute; right: 15px;">
+      </a>
+    </div>
+
+    <div class="footer-note">
+      ( Made with MIAMOR )
+    </div>
+  </div>
+
+  <!-- Back to Home Link -->
+  <div style="margin-top: 20px;">
+    <a href="index.html" style="color: var(--accent-color); text-decoration: none; font-weight: bold;">
+      ← Back to Home
+    </a>
+  </div>
+</body>
+</html>
