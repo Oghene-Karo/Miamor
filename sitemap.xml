@@ -48,6 +48,22 @@
     </image:image>
   </url>
   
+  <!-- Alternative Registration Page -->
+  <url>
+    <loc>https://miamor.it.com/miamorreg3.html</loc>
+    <lastmod>2025-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://miamor.it.com/Images/miamorlogoblue.png</image:loc>
+      <image:title>MiAmor Registration Alternative</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://miamor.it.com/Images/miamorlogo2.png</image:loc>
+      <image:title>MiAmor Logo</image:title>
+    </image:image>
+  </url>
+  
   <!-- Community Page -->
   <url>
     <loc>https://miamor.it.com/miamor-community.html</loc>

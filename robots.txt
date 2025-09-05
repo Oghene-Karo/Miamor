@@ -4,6 +4,7 @@ Allow: /
 # Allow all search engines to crawl the entire site
 Allow: /index.html
 Allow: /miamorReg.html
+Allow: /miamorreg3.html
 Allow: /miamor-community.html
 Allow: /Images/
 
