@@ -4,6 +4,7 @@ Allow: /
 # Allow all search engines to crawl the entire site
 Allow: /index.html
 Allow: /miamorReg.html
+Allow: /miamor-community.html
 Allow: /Images/
 
 # Disallow crawling of any admin or private areas (if you add them later)
